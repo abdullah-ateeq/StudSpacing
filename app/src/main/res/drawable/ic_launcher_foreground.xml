@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Wall plates with evenly spaced studs and a dimension line. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path
+        android:strokeColor="@color/launcher_plate"
+        android:strokeWidth="3"
+        android:strokeLineCap="square"
+        android:pathData="M34,38H74M34,66H74" />
+    <path
+        android:strokeColor="@color/launcher_stud"
+        android:strokeWidth="2.6"
+        android:pathData="M36,38V66M48.67,38V66M61.33,38V66M72,38V66" />
+    <path
+        android:strokeColor="@color/launcher_plate"
+        android:strokeAlpha="0.6"
+        android:strokeWidth="1.2"
+        android:pathData="M34,74H74M32,76L36,72M72,76L76,72" />
+</vector>
